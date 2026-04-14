@@ -1,15 +1,16 @@
 payload:
+  # OpenAI / ChatGPT / Codex
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,auth.openai.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,codex.com
 
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-KEYWORD,claude
-  - DOMAIN-KEYWORD,anthropic
-  - DOMAIN-REGEX,anthropic.*
+  # 可选：为了更稳，直接兜住常见子域
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-KEYWORD,oaistatic
+  - DOMAIN-KEYWORD,oaiusercontent
 
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursor.com
