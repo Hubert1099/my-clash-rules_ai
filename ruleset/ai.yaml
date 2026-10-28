@@ -4,7 +4,7 @@ payload:
   - DOMAIN-SUFFIX,auth.openai.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,ping0.cc/
+  - DOMAIN-SUFFIX,ping0.cc
 
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,chatgpt
