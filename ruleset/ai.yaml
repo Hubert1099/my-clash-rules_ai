@@ -2,70 +2,52 @@ payload:
   # OpenAI / ChatGPT
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,auth.openai.com
-  - DOMAIN-SUFFIX,api.openai.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,chatgpt
-  - DOMAIN-KEYWORD,oaistatic
-  - DOMAIN-KEYWORD,oaiusercontent
 
-  # Claude / Anthropic
+  # Claude / Anthropic（包含 Docs / Artifacts / MCP 全部域名）
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claude.app
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,claudemcpcontent.com
-  - DOMAIN-SUFFIX,api.anthropic.com
-  - DOMAIN-SUFFIX,platform.claude.com
-  - DOMAIN-SUFFIX,sso.claude.com
-  - DOMAIN-SUFFIX,assets-proxy.anthropic.com
-  - DOMAIN-SUFFIX,downloads.claude.ai
-  - DOMAIN-SUFFIX,mcp-proxy.anthropic.com
-  - DOMAIN-SUFFIX,bridge.claudeusercontent.com
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,anthropic
-  - DOMAIN-REGEX,anthropic.*
-  - DOMAIN-REGEX,claude.*
 
   # Claude Code 安装、更新及插件
-  - DOMAIN,storage.googleapis.com
-  - DOMAIN,registry.npmjs.org
-  - DOMAIN,github.com
-  - DOMAIN,raw.githubusercontent.com
-  - DOMAIN,formulae.brew.sh
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,brew.sh
 
-  # Claude Artifacts 外部资源
-  - DOMAIN,cdnjs.cloudflare.com
-  - DOMAIN,cdn.jsdelivr.net
-  - DOMAIN,cdn.tailwindcss.com
-  - DOMAIN,code.jquery.com
-  - DOMAIN,unpkg.com
-  - DOMAIN,fonts.googleapis.com
-  - DOMAIN,fonts.gstatic.com
+  # Claude Docs / Artifacts 外部前端资源
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,tailwindcss.com
+  - DOMAIN-SUFFIX,jquery.com
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,gstatic.com
 
   # Claude 遥测及错误报告
-  - DOMAIN,http-intake.logs.us5.datadoghq.com
-  - DOMAIN,browser-intake-us5-datadoghq.com
+  - DOMAIN-SUFFIX,datadoghq.com
 
   # Cursor
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-KEYWORD,cursor
-  - DOMAIN-REGEX,cursor.*
 
   # Augment Code
   - DOMAIN-SUFFIX,augmentcode.com
   - DOMAIN-KEYWORD,augmentcode
-  - DOMAIN-REGEX,augmentcode.*
 
   # Midjourney
   - DOMAIN-SUFFIX,midjourney.com
   - DOMAIN-KEYWORD,midjourney
-  - DOMAIN-REGEX,midjourney.*
 
   # Meta AI
   - DOMAIN-SUFFIX,meta.ai
